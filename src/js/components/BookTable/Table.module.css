@@ -1,0 +1,142 @@
+.infoListContainer {
+  width: 270px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .infoListContainer {
+    width: 678px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .infoListContainer {
+    width: 1200px;
+  }
+}
+.bookColumns {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .list {
+    margin: 0 auto;
+    width: 270px;
+  }
+}
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.71;
+  color: #242a37;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    margin-left: 85px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 2.71;
+  }
+}
+@media screen and (min-width: 767px) {
+  .title {
+    width: 240px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .title {
+    width: 280px;
+    margin-right: 139px;
+    margin-left: 85px;
+  }
+}
+.author {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.71;
+  color: #242a37;
+}
+@media screen and (min-width: 768px) {
+  .author {
+    font-size: 14px;
+    line-height: 2.71;
+  }
+  .list_more {
+    height: 210px;
+    margin: 0 auto;
+    overflow-y: auto;
+  }
+}
+@media screen and (min-width: 767px) {
+  .author {
+    width: 160px;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .author {
+    width: 130px;
+    margin-right: 173px;
+  }
+}
+.year {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.71;
+  color: #242a37;
+}
+@media screen and (min-width: 768px) {
+  .year {
+    font-size: 14px;
+    line-height: 2.71;
+  }
+}
+@media screen and (min-width: 768px) {
+  .year {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .year {
+    width: 60px;
+    margin-right: 93px;
+  }
+}
+.page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.71;
+  color: #242a37;
+  margin-right: 21px;
+}
+@media screen and (min-width: 768px) {
+  .page {
+    font-size: 14px;
+    line-height: 2.71;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .page {
+    margin-right: 11%;
+  }
+}
+.sectionTitle {
+  white-space: nowrap;
+  width: 134px;
+  height: 38px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 38px;
+  color: #242a37;
+}
+@media screen and (min-width: 768px) {
+  .sectionTitle {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1280px) {
+  .sectionTitle {
+    margin-top: 30px;
+  }
+}

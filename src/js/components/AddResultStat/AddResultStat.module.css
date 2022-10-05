@@ -1,0 +1,260 @@
+.stepsTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #242a37;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.thumb {
+  position: relative;
+  margin: 40px auto 50px;
+  width: 280px;
+  padding: 20px;
+  height: 290px;
+  background: #ffffff;
+  box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.25);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .thumb {
+    width: 704px;
+
+  }
+
+  .stat-form {
+    display: flex;
+
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .stat-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .stat-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+.date-input {
+  position: relative;
+  width: 110px;
+  height: 42px;
+  background: #f6f7fb;
+  border: 1px solid #a6abb9;
+  margin-bottom: 28px;
+  padding-left: 13px;
+}
+
+.date-input::after {
+  content: url('../../../sprites/polygon.svg');
+  display: block;
+  width: 25px;
+  height: 25px;
+
+}
+
+.label {
+
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #898f9f;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .label {
+    margin-right: 35px;
+  }
+}
+
+.add-result {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  width: 240px;
+  height: 40px;
+  border-radius: 1px;
+  line-height: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #ff6b08;
+  font-style: normal;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px){
+  .add-result{
+    margin-top:  9px;
+  }
+}
+
+.statTitle {
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* deep blue */
+
+  color: #242A37;
+}
+
+
+.date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  text-transform: uppercase;
+}
+
+.hour {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #898f9f;
+}
+
+.page {
+  font-style: normal;
+  text-align: right;
+  font-size: 12px;
+  line-height: 17px;
+  color: #898f9f;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .stat-info {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .statTitle{
+    text-align: center;
+  }
+  .date{
+    text-align: center;
+  }
+
+  .line-left{
+    width: 71px;
+    border-bottom: 1px solid #E0E5EB;
+  }
+
+  .line-right{
+    width: 71px;
+    border-bottom: 1px solid #E0E5EB;
+  }
+
+
+
+
+}
+@media screen and (min-width:1280px ){
+  .stat-info {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .statTitle{
+    text-align: center;
+  }
+  .date{
+    text-align: center;
+  }
+
+  .line-left{
+    margin-right: 8px;
+    width: 71px;
+    border-bottom: 1px solid #E0E5EB;
+  }
+
+  .line-right{
+    margin-left: 8px;
+    width: 71px;
+    border-bottom: 1px solid #E0E5EB;
+  }
+
+}
+
+.dateTitle {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .stat-info{
+    display: flex;
+
+  }
+  .result-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stat-wrapper{
+    width: fit-content;
+    margin-left: 66px;
+    margin-top: 21px;
+  }
+  .date{
+    margin-right: 32px;
+  }
+  .hour{
+    margin-right: 32px;
+  }
+
+
+
+  .line-left{
+    border-bottom: 1px solid #E0E5EB;
+    width: 177px;
+    margin-left: 8px;
+  }
+
+}
+
+.line-container{
+  /*width: 285px;*/
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+

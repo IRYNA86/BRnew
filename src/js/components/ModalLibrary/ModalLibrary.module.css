@@ -1,0 +1,128 @@
+.backdrop {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modal {
+  position: absolute;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.29);
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 40px 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 90px);
+  height: 426px;
+}
+@media screen and (min-width: 400px) {
+  .modal {
+    height: 390px;
+  }
+}
+@media screen and (min-width: 440px) {
+  .modal {
+    height: 365px;
+    width: 350px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstStep {
+  margin-bottom: 40px;
+}
+
+.secondStep {
+  margin-bottom: 55px;
+}
+
+.stepsTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #242a37;
+  margin-bottom: 15px;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.stepsSuptitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #242a37;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  line-height: 17px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.stepsParagrath {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #898f9f;
+  margin-left: 15px;
+  line-height: 17px;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.modal-button {
+  width: 127px;
+  height: 40px;
+  border-radius: 1px;
+  line-height: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  background: #ff6b08;
+  padding: 12px 53px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #fff;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.29);
+}
+.modal-button:focus {
+  background-color: #d15807;
+  position: relative;
+  top: 2px;
+}
+.modal-button:hover {
+  background-color: #d15807;
+}
+
+.arrow-icon {
+  margin-left: 43px;
+}
