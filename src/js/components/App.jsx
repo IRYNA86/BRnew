@@ -2,13 +2,16 @@
 // import Media from 'react-media';
 // import InfoMobile from 'js/pages/InfoMobile/InfoMobile';
 
-import Statistics from 'js/pages/Statistics';
+// import Statistics from 'js/pages/Statistics';
+
 import PrivateRoute from 'js/services/Routes/PrivateRoute';
 import PublicRoute from 'js/services/Routes/PublicRoute';
 import Container from 'js/utils/Container/Container';
 import { Loading } from 'notiflix';
 import React, { Suspense, lazy } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import ModalMyTrainingPlaying from 'js/components/ModalMyTrainingPlaying/ModalMyTrainingPlaying'
+
 
 const Login = lazy(async () => {
   let obj = await import('../pages/Login/Login');
@@ -36,6 +39,7 @@ const Workout = lazy(async () => {
 });
 
 export default function App() {
+  
   return (
     <Container>
       <Suspense fallback={Loading.circle()}>
@@ -56,7 +60,10 @@ export default function App() {
             <Route path="/workout" element={<Workout />} />
           </Route>
           <Route path="/" element={<PrivateRoute />}>
-            <Route path="/statistic" element={<Statistics />} />
+            {/* <Route path="/statistic" element={<Statistics />} /> */}
+            <Route path="/statistic" element={<ModalMyTrainingPlaying
+            
+            />} />
           </Route>
         </Routes>
         {Loading.remove()}
